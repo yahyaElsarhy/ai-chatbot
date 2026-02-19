@@ -97,28 +97,6 @@ OpenRouter API
 
 
 
-Project Structure ##
-
-
-AI-CHATBOT/
-│
-├── backend/
-│   ├── providers/
-│   │   ├── groq_provider.py
-│   │   ├── openrouter_provider.py
-│   │   └── __init__.py
-│   │
-│   ├── main.py
-│
-├── frontend/
-│   └── app.py
-│
-├── .env
-├── .env_example
-├── requirements.txt
-└── README.md
-===============================
-
 Multi-Provider Support ##
 
 The chatbot allows switching between providers dynamically:
